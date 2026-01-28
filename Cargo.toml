@@ -1,12 +1,12 @@
 [package]
-name = "cfg-if"
+name = "trezoa-cfg-if"
 version = "1.0.0"
-authors = ["Alex Crichton <alex@alexcrichton.com>"]
-license = "MIT/Apache-2.0"
+authors = ["Trezoa Team <team@trezoa.com>"]
+license = "MIT"
 readme = "README.md"
-repository = "https://github.com/alexcrichton/cfg-if"
-homepage = "https://github.com/alexcrichton/cfg-if"
-documentation = "https://docs.rs/cfg-if"
+repository = "https://github.com/trezoa-team/cfg-if"
+homepage = "https://github.com/trezoa-team/cfg-if"
+documentation = "https://docs.rs/trezoa-cfg-if"
 description = """
 A macro to ergonomically define an item depending on a large number of #[cfg]
 parameters. Structured like an if-else chain, the first matching branch is the
@@ -15,7 +15,7 @@ item that gets emitted.
 edition = "2018"
 
 [badges]
-travis-ci = { repository = "alexcrichton/cfg-if" }
+travis-ci = { repository = "trezoa-team/cfg-if" }
 
 [dependencies]
 core = { path = "../core", optional = true }
